@@ -1,0 +1,171 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 100px;
+    padding-inline: 300px;
+    padding-bottom: 150px;
+}
+
+.header, .intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro {
+    gap: 350px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.head-one {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    margin-top: 10px;
+}
+
+.section-two {
+    text-align: center;
+    margin: 60px;
+}
+
+.img-grp {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.info-img img{
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.img-grp div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.subtext {
+    width: 160px;
+}
+
+.sign-up-two {
+    border:1.5px solid white;
+}
+
+.head-two {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 500px;
+    margin-block: 100px;
+    text-align: left;
+}
+
+.author {
+    justify-content:  end;
+    display: flex;
+    flex-direction: end;
+    font-weight: bold;
+}
+
+.section-four {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding:50px;
+    margin-inline: 350px;
+    margin-block: 80px;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+.header-three {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+
+.footer {
+    text-align: center;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding-inline: 19px;
+    padding-block: 8px;
+    font-weight: 900;
+    font-size: medium;
+}
+
+img {
+    height: 300px;
+    width: auto;
+}
